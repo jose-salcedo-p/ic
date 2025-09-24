@@ -1,0 +1,124 @@
+body {
+      color: white !important
+    }
+
+.container {
+  --bs-gutter-x: 15em !important
+}
+
+.top-bar a {
+  color: white;
+  margin-left: 10px;
+  text-decoration: none;
+}
+
+.navbar-nav .nav-link {
+  text-transform: uppercase;
+  margin: 0 10px;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #8bc34a !important;
+}
+
+.banner {
+    position: relative;
+    margin: 0;
+    padding: 0;
+}
+
+.padin {
+  padding-top: 5em;
+  padding-bottom: 5em;
+}
+
+.card, li, a, .list-group-item {
+  border-radius: 4px !important;
+  background-color: transparent;
+}
+
+.card {
+  border: solid 2px #555;
+  cursor: pointer;
+}
+
+.no-borde {
+  border: solid 0px transparent;
+  background-color: #222;
+  border-radius: 0;
+  transition-duration: 0.5s;
+}
+
+.texto-verde {
+  color: #73b21b
+}
+
+.card-a {
+  text-decoration: none;
+}
+
+.icono {
+  width: 18px;
+  vertical-align: middle;
+  margin-right: 10px;
+}
+
+.no-borde:hover {
+  background-color: #73b21b;
+  transition-duration: 0.5s;
+}
+
+.mas_arriba {
+  cursor: pointer;
+  max-width: 200px;
+  position: relative;
+  top: -15px;
+  transition-duration: 0.5s;
+}
+
+.mas_arriba:hover {
+  transition-duration: 0.5s;
+  opacity: 0.7;
+}
+
+.member {
+  cursor: auto;
+}
+.desktop {
+  max-height: 300px;
+}
+
+div {
+  color: white !important
+}
+
+.verde {
+  background-color: #73b21b !important;
+}
+.fondo-oscuro {
+  background-color: #161922 !important;
+}
+.card-foot {
+  cursor: auto;
+}
+.card-link {
+  color: #73b21b;
+  font-weight: bold;
+  text-decoration: none;
+  transition-duration: 0.25s;
+}
+.card-link:hover{
+  color: #609417;
+  transition-duration: 0.25s;
+}
+.cabeza {
+  background-image: url('imgs/bg.jpg'); 
+  background-size: cover;
+  background-repeat: no-repeat;
+  max-width: 100%;
+}
+
+td, tr {
+  vertical-align: middle;
+  border: solid 2px red
+}
