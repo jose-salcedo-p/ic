@@ -79,7 +79,7 @@
       <h4><span class="texto-verde">3.</span> JS</h4>
       <p>Javascript, lo que hace dinámico una página web.</p>
       <h5><span class="texto-verde">a) </span> El button que ahora tiene otro color alternará su propio color y su nombre de a azul a amarillo y viceversa.</h5>
-      <p><button style="background-color: blue;" id="boton" onclick="cambiarColor()">Botón azul</button></p>
+      <p><button style="background-color: #00f;" id="boton" onclick="cambiarColor()">Botón azul</button></p>
     </div>
   </div>
 
@@ -116,18 +116,18 @@
       </div>
     </section>
     <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
-      2025 - José Salcedo
+      2026 - José Salcedo
     </div>
   </footer>
 
   <script>
     function cambiarColor() {
       let btn = document.getElementById("boton");
-      if (btn.style.backgroundColor === "blue") {
-        btn.style.backgroundColor = "yellow";
+      if (btn.style.backgroundColor === "#00f") {
+        btn.style.backgroundColor = "#ff0";
         btn.innerHTML = "Botón amarillo";
       } else {
-        btn.style.backgroundColor = "blue";
+        btn.style.backgroundColor = "#00f";
         btn.innerHTML = "Botón azul";
       }
     }
